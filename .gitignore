@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+*.zip
+*.pt
+*.bin
+.DS_Store
+_reference/
+outputs/*
+!outputs/.gitkeep
+
+

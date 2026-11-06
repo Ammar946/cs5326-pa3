@@ -1,0 +1,5 @@
+# Kaggle's environment provides preinstalled PyTorch, Transformers, Accelerate, Datasets, tqdm, and NumPy.
+# Upgrade bitsandbytes (>=0.45.5) as older 0.44.x versions fail on current Kaggle images by importing triton.ops.
+bitsandbytes>=0.45.5
+pytest
+tabulate
