@@ -1,6 +1,10 @@
 """
 run_all.py - End-to-end evaluation pipeline for CS 5326 Programming Assignment 3.
 
+Name: Muhammad Ammar
+Roll Number: 25280019
+GitHub Repository: https://github.com/Ammar946/cs5326-pa3
+
 Features:
   - Evaluates all 6 required configurations + lambda sweep + optional bonus (product_logprob)
     across the 50-problem GSM8K benchmark (data/gsm8k_test_50.jsonl).

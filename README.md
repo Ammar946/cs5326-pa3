@@ -1,6 +1,9 @@
 # CS 5326: Advanced Generative AI and Agents
 ## Programming Assignment 3: Search over Reasoning and Step-Level Process Reward Models
 
+**Name:** Muhammad Ammar  
+**Roll Number:** 25280019  
+**GitHub Repository:** [https://github.com/Ammar946/cs5326-pa3](https://github.com/Ammar946/cs5326-pa3)  
 **Design and Lead:** Muhammad Ahmad Sarfraz
 
 ---
@@ -69,8 +72,8 @@ pytest -v tests/test_public_adapter_smoke.py
 #### 3. Execution on Kaggle (GPU T4x2)
 Create a new Kaggle notebook, set the **Accelerator** in the top sidebar to **GPU T4x2**, and turn **Internet** to **On**. Clone the repository:
 ```bash
-!git clone https://github.com/ahmad-sarfraz345/cs5326-pa3-starter.git
-%cd cs5326-pa3-starter
+!git clone https://github.com/Ammar946/cs5326-pa3.git
+%cd cs5326-pa3
 !pip install -q -U bitsandbytes
 ```
 Load the dual models (1.5B generator in fp16 on cuda:0, 7B judge in 4-bit NF4 on cuda:1):
@@ -89,7 +92,7 @@ judge_fn = make_hf_judge_fn(judge_model, judge_tokenizer)
 #### 4. Packaging Your Submission
 When your implementation passes all tests and your benchmark run produces all required artifacts in `outputs/`:
 ```bash
-bash make_submission.sh <your_roll_number>
+bash make_submission.sh 25280019
 ```
-This generates `<your_roll_number>_pa3.zip` containing `src/`, `submission_adapter.py`, `run_pipeline.ipynb` (or `run_all.py`), `outputs/per_problem.jsonl`, `outputs/results_summary.json`, `outputs/aggregation_ablation.json`, `outputs/sc_scaling_curve.json`, and `REPORT.pdf`. Upload this archive to LMS.
+This generates `25280019_pa3.zip` containing `src/`, `submission_adapter.py`, `run_pipeline.ipynb` (or `run_all.py`), `outputs/per_problem.jsonl`, `outputs/results_summary.json`, `outputs/aggregation_ablation.json`, `outputs/sc_scaling_curve.json`, and `REPORT.pdf`. Upload this archive to LMS.
 

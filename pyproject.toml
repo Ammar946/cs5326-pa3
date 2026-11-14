@@ -6,7 +6,8 @@ build-backend = "setuptools.build_meta"
 name = "cs5326-pa3"
 version = "1.0.0"
 description = "CS 5326 Programming Assignment 3: Search over Reasoning"
-authors = [{ name = "Muhammad Ahmad Sarfraz" }]
+authors = [{ name = "Muhammad Ammar (25280019)" }]
+urls = { Repository = "https://github.com/Ammar946/cs5326-pa3" }
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

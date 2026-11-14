@@ -2,6 +2,10 @@
 analyze_outputs.py - Statistical analysis, bootstrap CIs, failure case mining,
 judge audit extraction, and publication-quality plot generation for REPORT.pdf.
 
+Name: Muhammad Ammar
+Roll Number: 25280019
+GitHub Repository: https://github.com/Ammar946/cs5326-pa3
+
 Usage:
   python3 analyze_outputs.py --output-dir outputs --fig-dir figures
 """

@@ -1,6 +1,7 @@
 # CS 5326: Programming Assignment 3 Technical Report
-**Student Name:** Muhammad Ammar Shahbaz  
-**GitHub Repository:** `Ammar946/cs5326-pa3`  
+**Name:** Muhammad Ammar  
+**Roll Number:** 25280019  
+**GitHub Repository:** [https://github.com/Ammar946/cs5326-pa3](https://github.com/Ammar946/cs5326-pa3)  
 **Date:** Fall 2026  
 
 ***

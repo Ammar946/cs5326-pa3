@@ -1,6 +1,10 @@
 """
 CS 5326: Advanced Generative AI and Agents - Programming Assignment 3
 Submission Adapter Interface Contract.
+
+Name: Muhammad Ammar
+Roll Number: 25280019
+GitHub Repository: https://github.com/Ammar946/cs5326-pa3
 """
 from typing import Any, Callable
 
