@@ -1,0 +1,58 @@
+{
+  "num_problems": 50,
+  "bootstrap_cis": {
+    "Greedy (N=1)": {
+      "mean": 66.0,
+      "ci_95_low": 52.0,
+      "ci_95_high": 78.0
+    },
+    "Self-Consistency (N=5)": {
+      "mean": 72.0,
+      "ci_95_low": 60.0,
+      "ci_95_high": 84.0
+    },
+    "Compute-Matched SC (N=15)": {
+      "mean": 76.0,
+      "ci_95_low": 62.0,
+      "ci_95_high": 86.0
+    },
+    "PRM Best-of-5 (min)": {
+      "mean": 80.0,
+      "ci_95_low": 68.0,
+      "ci_95_high": 90.0
+    },
+    "PRM Best-of-5 (product)": {
+      "mean": 72.0,
+      "ci_95_low": 58.0,
+      "ci_95_high": 84.0
+    },
+    "PRM Best-of-5 (step_penalty, lambda=2.0)": {
+      "mean": 80.0,
+      "ci_95_low": 68.0,
+      "ci_95_high": 90.0
+    },
+    "PRM Best-of-5 (product_logprob)": {
+      "mean": 78.0,
+      "ci_95_low": 66.0,
+      "ci_95_high": 88.0
+    }
+  },
+  "paired_prm_min_vs_sc5": {
+    "a_wins": 4,
+    "b_wins": 0,
+    "both_correct": 36,
+    "both_wrong": 10,
+    "both_agreed_correctness": 46
+  },
+  "paired_prm_min_vs_sc15": {
+    "a_wins": 3,
+    "b_wins": 1,
+    "both_correct": 37,
+    "both_wrong": 9,
+    "both_agreed_correctness": 46
+  },
+  "greedy_delimiter_compliance_pct": 94.0,
+  "sampled_candidate_compliance_pct": 95.47,
+  "avg_greedy_tokens_per_problem": 218.8,
+  "budget_10x_greedy_tokens_per_problem": 2188.0
+}
