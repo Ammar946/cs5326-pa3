@@ -1,6 +1,8 @@
 """
 src/search.py - Path aggregation, Best-of-N search, and compute-matched search.
 """
+from __future__ import annotations
+
 import copy
 import time
 from typing import Any, Callable

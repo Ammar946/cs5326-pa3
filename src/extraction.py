@@ -1,6 +1,8 @@
 """
 src/extraction.py - Step and answer extraction utilities.
 """
+from __future__ import annotations
+
 import re
 
 

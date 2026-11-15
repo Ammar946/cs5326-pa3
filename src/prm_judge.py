@@ -1,6 +1,8 @@
 """
 src/prm_judge.py - PRM judge prompt construction, parsing, and step scoring.
 """
+from __future__ import annotations
+
 import math
 import re
 from typing import Any, Callable

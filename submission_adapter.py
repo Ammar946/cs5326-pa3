@@ -6,6 +6,8 @@ Name: Muhammad Ammar
 Roll Number: 25280019
 GitHub Repository: https://github.com/Ammar946/cs5326-pa3
 """
+from __future__ import annotations
+
 from typing import Any, Callable
 
 # Type Aliases as mandated by the assignment contract

@@ -35,7 +35,7 @@ done
 
 # Run public smoke tests
 echo "Running public smoke tests..."
-python tests/test_public_adapter_smoke.py || echo "Warning: Some tests failed. Proceeding with packaging."
+python3 tests/test_public_adapter_smoke.py || /usr/bin/python3 tests/test_public_adapter_smoke.py || python tests/test_public_adapter_smoke.py || echo "Warning: Some tests failed. Proceeding with packaging."
 
 # Create zip archive
 zip -r "${ARCHIVE_NAME}" \

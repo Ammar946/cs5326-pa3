@@ -8,6 +8,8 @@ Usage:
   pytest -v tests/test_public_adapter_smoke.py
   python tests/test_public_adapter_smoke.py
 """
+from __future__ import annotations
+
 import copy
 import os
 import sys

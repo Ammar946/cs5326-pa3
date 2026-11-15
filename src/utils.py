@@ -1,6 +1,8 @@
 """
 src/utils.py - Model loading, generation constants, seed management, and factories.
 """
+from __future__ import annotations
+
 import json
 import math
 import os
